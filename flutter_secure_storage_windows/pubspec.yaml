@@ -11,7 +11,11 @@ dependencies:
   ffi: ^2.0.0
   flutter:
     sdk: flutter
-  flutter_secure_storage_platform_interface: ^1.0.1
+  flutter_secure_storage_platform_interface:
+    git:
+      url: https://github.com/mansourzaki/flutter_secure_storage
+      ref: develop
+      path: flutter_secure_storage_platform_interface
   path: ^1.8.0
   path_provider: ^2.0.0
   win32: ^5.0.0
